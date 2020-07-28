@@ -1,0 +1,23 @@
+{
+  "name": "fanyi.baidu.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "pkg": "^4.4.9",
+    "prompt": "^1.0.0",
+    "prompts": "^2.3.2",
+    "qs": "^6.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/cli.js",
+    "build:x64": "pkg -t win-x64 -o ./dist/x64 src/cli.js",
+    "build:x86": "pkg -t win-x86 -o ./dist/x86 src/cli.js",
+    "build": "npm run build:x64 && npm run build:x86"
+  },
+  "author": "",
+  "license": "ISC"
+}
