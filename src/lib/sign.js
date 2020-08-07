@@ -1,13 +1,5 @@
 function sign(query, gtk) {
   var i = null
-  function a(r) {
-    if (Array.isArray(r)) {
-      for (var o = 0, t = Array(r.length); o < r.length; o++)
-        t[o] = r[o];
-      return t
-    }
-    return Array.from(r)
-  }
   function n(r, o) {
     for (var t = 0; t < o.length - 2; t += 3) {
       var a = o.charAt(t + 2);
