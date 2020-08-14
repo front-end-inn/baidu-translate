@@ -160,7 +160,6 @@ function handle(main) {
       }
     }, (error) => {
       console.log(chalk.red('发生了一个错误，来自网络，或来自百度服务器问题' + '\n------------------------------------------------------\n'));
-      console.log(error);
       (async () => {
         const r = await prompts({
           type: 'confirm',
