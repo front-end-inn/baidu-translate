@@ -7,7 +7,7 @@
     "axios": "^0.20.0",
     "chalk": "^4.1.0",
     "prompt": "^1.0.0",
-    "prompts": "^2.3.2",
+    "prompts": "^2.4.0",
     "qs": "^6.9.4"
   },
   "devDependencies": {},
