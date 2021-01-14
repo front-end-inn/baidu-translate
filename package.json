@@ -8,7 +8,7 @@
     "chalk": "^4.1.0",
     "prompt": "^1.0.0",
     "prompts": "^2.3.2",
-    "qs": "^6.9.4"
+    "qs": "^6.9.6"
   },
   "devDependencies": {},
   "scripts": {
