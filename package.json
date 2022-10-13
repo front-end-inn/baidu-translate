@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "axios": "^0.20.0",
-    "chalk": "^4.1.0",
+    "chalk": "^5.1.2",
     "prompt": "^1.0.0",
     "prompts": "^2.3.2",
     "qs": "^6.9.4"
